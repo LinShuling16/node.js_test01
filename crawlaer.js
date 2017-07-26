@@ -1,6 +1,6 @@
 var http=require('http');
 var cheerio=require('cheerio');
-var url='http://www.cnblogs.com/Lwd-linux/archive/2017/01.html';
+var url='http://www.cnblogs.com/Lwd-linux/archive/2017/01.html';//博客园博客列表
 
 //获取
 function filterChapters(html){
